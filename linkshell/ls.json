@@ -1,5 +1,5 @@
 {
-    "NAME": {
-        "selector": ".heading__linkshell__name"
-    }
+	"NAME": {
+		"selector": ".heading__linkshell__name"
+	}
 }
