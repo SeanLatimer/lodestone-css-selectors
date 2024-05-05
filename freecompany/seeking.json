@@ -1,75 +1,75 @@
 {
-  "NOT_SPECIFIED": {
-    "selector": "div.ldst__window:nth-of-type(2) > p:nth-of-type(4)"
-  },
-  "TANK": {
-    "NAME": {
-      "selector": "div.ldst__window:nth-of-type(2) > ul.freecompany__focus_icon:nth-of-type(2) > li:nth-of-type(1) p:first-of-type"
-    },
-    "ICON": {
-      "selector": "div.ldst__window:nth-of-type(2) > ul.freecompany__focus_icon:nth-of-type(2) > li:nth-of-type(1) img:first-of-type",
-      "attribute": "src"
-    },
-    "STATUS": {
-      "selector": "div.ldst__window:nth-of-type(2) > ul.freecompany__focus_icon:nth-of-type(2) > li:nth-of-type(1)",
-      "attribute": "class",
-      "regex": "freecompany__focus_icon--(?P<Status>off)"
-    }
-  },
-  "HEALER": {
-    "NAME": {
-      "selector": "div.ldst__window:nth-of-type(2) > ul.freecompany__focus_icon:nth-of-type(2) > li:nth-of-type(2) p:first-of-type"
-    },
-    "ICON": {
-      "selector": "div.ldst__window:nth-of-type(2) > ul.freecompany__focus_icon:nth-of-type(2) > li:nth-of-type(2) img:first-of-type",
-      "attribute": "src"
-    },
-    "STATUS": {
-      "selector": "div.ldst__window:nth-of-type(2) > ul.freecompany__focus_icon:nth-of-type(2) > li:nth-of-type(2)",
-      "attribute": "class",
-      "regex": "freecompany__focus_icon--(?P<Status>off)"
-    }
-  },
-  "DPS": {
-    "NAME": {
-      "selector": "div.ldst__window:nth-of-type(2) > ul.freecompany__focus_icon:nth-of-type(2) > li:nth-of-type(3) p:first-of-type"
-    },
-    "ICON": {
-      "selector": "div.ldst__window:nth-of-type(2) > ul.freecompany__focus_icon:nth-of-type(2) > li:nth-of-type(3) img:first-of-type",
-      "attribute": "src"
-    },
-    "STATUS": {
-      "selector": "div.ldst__window:nth-of-type(2) > ul.freecompany__focus_icon:nth-of-type(2) > li:nth-of-type(3)",
-      "attribute": "class",
-      "regex": "freecompany__focus_icon--(?P<Status>off)"
-    }
-  },
-  "CRAFTER": {
-    "NAME": {
-      "selector": "div.ldst__window:nth-of-type(2) > ul.freecompany__focus_icon:nth-of-type(2) > li:nth-of-type(4) p:first-of-type"
-    },
-    "ICON": {
-      "selector": "div.ldst__window:nth-of-type(2) > ul.freecompany__focus_icon:nth-of-type(2) > li:nth-of-type(4) img:first-of-type",
-      "attribute": "src"
-    },
-    "STATUS": {
-      "selector": "div.ldst__window:nth-of-type(2) > ul.freecompany__focus_icon:nth-of-type(2) > li:nth-of-type(4)",
-      "attribute": "class",
-      "regex": "freecompany__focus_icon--(?P<Status>off)"
-    }
-  },
-  "GATHERER": {
-    "NAME": {
-      "selector": "div.ldst__window:nth-of-type(2) > ul.freecompany__focus_icon:nth-of-type(2) > li:nth-of-type(5) p:first-of-type"
-    },
-    "ICON": {
-      "selector": "div.ldst__window:nth-of-type(2) > ul.freecompany__focus_icon:nth-of-type(2) > li:nth-of-type(5) img:first-of-type",
-      "attribute": "src"
-    },
-    "STATUS": {
-      "selector": "div.ldst__window:nth-of-type(2) > ul.freecompany__focus_icon:nth-of-type(2) > li:nth-of-type(5)",
-      "attribute": "class",
-      "regex": "freecompany__focus_icon--(?P<Status>off)"
-    }
-  }
+	"NOT_SPECIFIED": {
+		"selector": "div.ldst__window:nth-of-type(2) > p:nth-of-type(4)"
+	},
+	"TANK": {
+		"NAME": {
+			"selector": "div.ldst__window:nth-of-type(2) > ul.freecompany__focus_icon:nth-of-type(2) > li:nth-of-type(1) p:first-of-type"
+		},
+		"ICON": {
+			"selector": "div.ldst__window:nth-of-type(2) > ul.freecompany__focus_icon:nth-of-type(2) > li:nth-of-type(1) img:first-of-type",
+			"attribute": "src"
+		},
+		"STATUS": {
+			"selector": "div.ldst__window:nth-of-type(2) > ul.freecompany__focus_icon:nth-of-type(2) > li:nth-of-type(1)",
+			"attribute": "class",
+			"regex": "freecompany__focus_icon--(?P<Status>off)"
+		}
+	},
+	"HEALER": {
+		"NAME": {
+			"selector": "div.ldst__window:nth-of-type(2) > ul.freecompany__focus_icon:nth-of-type(2) > li:nth-of-type(2) p:first-of-type"
+		},
+		"ICON": {
+			"selector": "div.ldst__window:nth-of-type(2) > ul.freecompany__focus_icon:nth-of-type(2) > li:nth-of-type(2) img:first-of-type",
+			"attribute": "src"
+		},
+		"STATUS": {
+			"selector": "div.ldst__window:nth-of-type(2) > ul.freecompany__focus_icon:nth-of-type(2) > li:nth-of-type(2)",
+			"attribute": "class",
+			"regex": "freecompany__focus_icon--(?P<Status>off)"
+		}
+	},
+	"DPS": {
+		"NAME": {
+			"selector": "div.ldst__window:nth-of-type(2) > ul.freecompany__focus_icon:nth-of-type(2) > li:nth-of-type(3) p:first-of-type"
+		},
+		"ICON": {
+			"selector": "div.ldst__window:nth-of-type(2) > ul.freecompany__focus_icon:nth-of-type(2) > li:nth-of-type(3) img:first-of-type",
+			"attribute": "src"
+		},
+		"STATUS": {
+			"selector": "div.ldst__window:nth-of-type(2) > ul.freecompany__focus_icon:nth-of-type(2) > li:nth-of-type(3)",
+			"attribute": "class",
+			"regex": "freecompany__focus_icon--(?P<Status>off)"
+		}
+	},
+	"CRAFTER": {
+		"NAME": {
+			"selector": "div.ldst__window:nth-of-type(2) > ul.freecompany__focus_icon:nth-of-type(2) > li:nth-of-type(4) p:first-of-type"
+		},
+		"ICON": {
+			"selector": "div.ldst__window:nth-of-type(2) > ul.freecompany__focus_icon:nth-of-type(2) > li:nth-of-type(4) img:first-of-type",
+			"attribute": "src"
+		},
+		"STATUS": {
+			"selector": "div.ldst__window:nth-of-type(2) > ul.freecompany__focus_icon:nth-of-type(2) > li:nth-of-type(4)",
+			"attribute": "class",
+			"regex": "freecompany__focus_icon--(?P<Status>off)"
+		}
+	},
+	"GATHERER": {
+		"NAME": {
+			"selector": "div.ldst__window:nth-of-type(2) > ul.freecompany__focus_icon:nth-of-type(2) > li:nth-of-type(5) p:first-of-type"
+		},
+		"ICON": {
+			"selector": "div.ldst__window:nth-of-type(2) > ul.freecompany__focus_icon:nth-of-type(2) > li:nth-of-type(5) img:first-of-type",
+			"attribute": "src"
+		},
+		"STATUS": {
+			"selector": "div.ldst__window:nth-of-type(2) > ul.freecompany__focus_icon:nth-of-type(2) > li:nth-of-type(5)",
+			"attribute": "class",
+			"regex": "freecompany__focus_icon--(?P<Status>off)"
+		}
+	}
 }
